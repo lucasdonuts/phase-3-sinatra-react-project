@@ -1,0 +1,88 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="401px" height="141px" viewBox="-0.5 -0.5 401 141" content="&lt;mxfile&gt;&lt;diagram id=&quot;RWrlk-aZ2XWKsPH43DLq&quot; name=&quot;Page-1&quot;&gt;7VhRb5swEP41kbaHVRBCljwW0nWT2ilaJm17dOACVg1GxmlCf/3OYAeIkzWbUPcSCSXc57vDd9+dMR55Yba/F6RIH3kMbDR24v3IW4zG4/l0ir8KqBrAn84bIBE0biC3BVb0BTToaHRLYyh7ipJzJmnRByOe5xDJHkaE4Lu+2oaz/lMLkoAFrCLCbPQHjWXaoDPfafHPQJPUPNl19EhGjLIGypTEfNeBvLuRFwrOZXOX7UNgKncmL43dpzOjh4kJyOUlBp6exzNhWx3cbVFwmstMeWjmKCsTeLmjGSM5SsGG53KlRxyUo5Sy+IFUfKseXEoSPRkpSLmgL6hPGA65COCwkJpXz+lprJSl9imgRJ2licY9gh7Jvqf4QEppZsMZI0VJ1/X8lGFGRELzgEvJM61kJ0vn7xmEhH0H0sm7B56BFBWq6FHPEFmZCtXyrq0Ld6KxtFsTBiS6FpOD75YuvNGMnWHPtdgLiFiDQOwLSs47JBISEO8tJjE+WRMh+BOEnHGBeM4bailjRxBhNMlRZLBRZipBFPvhVsMZjWPlOSgLEtE8eajVFpMW+aZDVxBH8w2ryz5FQ0APQV1zdSr8AC9MTujc+CMf5xqi7LYyXkpdyJDnOH1Ca/IAud+B4j8QXBJJ1ofKtGk+VP3rPFd9i9do9QZgdTq2WB2NpyQrMJZ8Xaq/7zQDRW9MJEi8P8tvKjPTc3WPdNJCtpKXTQu6f8Fwn6jF6XI5WVaCb/MY4gFZmV7IyniIXrNZCRmtF8lrrw3aa7M37DXPs1hd4vtHvf+vjA7GqOu+JaWzs4163c38eTfjz/5xNzMfgre5xdtX0rzmsFCxCa5t2G/D2cX0/odNzMT+sLi+JYck89K9zxBk+nZrWvRBHt+qT2uUIkbKkkb97SeGKqqfXeGXygZmUIsLs/w1UmWkPZXK7INz46h81EBjOvnoarm1VULXdAkC98cSxGurZMm3IoJ+8eK6noDJow4Z4t7ZgM1PhxD/BB8GE8CIpM/9E4VTJOknLFU5dj485/2l+rBrMi6aeLRV9wTgyNFkcuTouGCaJFiO6po5hH2qjFBsDzIa9fY0yLv7DQ==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-4-30-132-30-0">
+            <rect x="4" y="30" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-80-132-30-0">
+            <rect x="4" y="80" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-110-132-30-0">
+            <rect x="4" y="110" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-264-30-132-30-0">
+            <rect x="264" y="30" width="132" height="30"/>
+        </clipPath>
+        <clipPath id="mx-clip-264-60-132-30-0">
+            <rect x="264" y="60" width="132" height="30"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 30 L 0 0 L 140 0 L 140 30" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 30 L 0 140 L 140 140 L 140 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 30 L 140 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="69.5" y="19.5">
+                Appointment
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-30-132-30-0)" font-size="12px">
+            <text x="5.5" y="49.5">
+                Barber ID (integer)
+            </text>
+        </g>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 1px; height: 1px; padding-top: 70px; margin-left: 2px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: none; white-space: nowrap;">
+                                Time (datetime)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2" y="74" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    Time (datetime)
+                </text>
+            </switch>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-80-132-30-0)" font-size="12px">
+            <text x="5.5" y="99.5">
+                Client ID (integer)
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-110-132-30-0)" font-size="12px">
+            <text x="5.5" y="129.5">
+                Package (integer)
+            </text>
+        </g>
+        <path d="M 260 30 L 260 0 L 400 0 L 400 30" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 260 30 L 260 90 L 400 90 L 400 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 260 30 L 400 30" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="329.5" y="19.5">
+                Client
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-264-30-132-30-0)" font-size="12px">
+            <text x="265.5" y="49.5">
+                Name (string)
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-264-60-132-30-0)" font-size="12px">
+            <text x="265.5" y="79.5">
+                ID (integer)
+            </text>
+        </g>
+        <path d="M 256.92 74.13 L 146.27 93.88" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 141.1 94.8 L 147.38 90.13 L 146.27 93.88 L 148.61 97.02 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
