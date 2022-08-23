@@ -9,11 +9,16 @@ class AppointmentsController < ApplicationController
     appt.to_json
   end
 
+  patch '/appointments/:id' do
+    appt = Appointment.update(appt_params)
+    appt.to_json
+  end
+
   def appt_params
     {
-      name: params[ :name ],
-      email: params[ :email ],
-      phone: params[ :phone ],
+      # name: params[ :name ],
+      # email: params[ :email ],
+      # phone: params[ :phone ],
       time: params[ :time ],
       package: params[ :package ]
     }
