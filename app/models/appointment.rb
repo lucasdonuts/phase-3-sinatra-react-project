@@ -1,6 +1,7 @@
 class Appointment < ActiveRecord::Base
   belongs_to :client
 
+  # class methods
   def self.make_appt(apptData)
 
     price = 0
@@ -21,10 +22,15 @@ class Appointment < ActiveRecord::Base
     )
 
     new_appt = Appointment.create(
-                time: DateTime.parse(apptData[:time]),
+                time: apptData[:time],
                 package: apptData[:package],
                 price: price,
                 client: client
               )
+  end
+
+  def self.get_my_appts(email)
+    client = Client.find_by(email: email)
+    Appointment.where(client: client)
   end
 end
