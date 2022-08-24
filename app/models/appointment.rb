@@ -15,11 +15,7 @@ class Appointment < ActiveRecord::Base
       price = 75
     end
 
-    client = Client.find_or_create_by(
-      name: apptData[:name],
-      email: apptData[:email],
-      phone: apptData[:phone]
-    )
+    client = Client.create_with(name: apptData[:name], phone: apptData[:phone]).find_or_create_by(email: apptData[:email])
 
     new_appt = Appointment.create(
                 time: apptData[:time],
