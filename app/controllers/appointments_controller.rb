@@ -14,15 +14,11 @@ class AppointmentsController < ApplicationController
     appt.to_json
   end
 
-  # def appt_params
-  #   {
-  #     name: params[ :name ],
-  #     email: params[ :email ],
-  #     phone: params[ :phone ],
-  #     time: params[ :time ],
-  #     package: params[ :package ]
-  #   }
-  # end
+  delete '/appointments/:id' do
+    appt = Appointment.find( params[:id] )
+    appt.destroy
+  end
+
   def create_params
     {
       name: params[ :name ],
