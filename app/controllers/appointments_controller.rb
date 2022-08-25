@@ -10,7 +10,8 @@ class AppointmentsController < ApplicationController
   end
 
   patch '/appointments/:id' do
-    appt = Appointment.update(update_params)
+    appt = Appointment.find(params[:id])
+    appt.update(update_params)
     appt.to_json
   end
 
