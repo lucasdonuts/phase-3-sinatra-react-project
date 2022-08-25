@@ -15,20 +15,9 @@ puts "🌱 Seeding..."
 10.times do
   Client.create(
     name: Faker::Name.unique.male_first_name,
-    # email: Faker::Internet.unique.email,
-    email: "#{('a'..'z').to_a.sample}@e.com",
+    email: "#{('a'..'z').to_a.shuffle.take(1).first}@e.com",
     phone: Faker::PhoneNumber.unique.cell_phone
   )
-end
-
-5.times do # |i|
-  Appointment.make_appt(
-    client: Client.all.sample,
-    time: TIMES[*(0..9).to_a.shuffle.take(1)],
-    package: rand(1..3).to_s
-  )
-  
-  # i = 0 if i == 9
 end
 
 puts "✅ Done seeding!"
